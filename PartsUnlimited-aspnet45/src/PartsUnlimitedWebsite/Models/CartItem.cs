@@ -1,7 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 //My second change
-//My first change
 namespace PartsUnlimited.Models
 {
     public class CartItem : ILineItem
@@ -12,7 +11,7 @@ namespace PartsUnlimited.Models
         [Required]
         public string CartId { get; set; }
         public int ProductId { get; set; }
-        public int Count { get; set; }
+s        public int Count { get; set; }
 
         [DataType(DataType.DateTime)]
         public DateTime DateCreated { get; set; }
